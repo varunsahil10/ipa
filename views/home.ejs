@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Indian Pharmacist Association">
+      <meta name="keywords" content="Indian, Pharmacist,Association,IPA,medicine">
+       <meta name="author" content="Varun Sahil">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>IPA</title>
+      <link rel="stylesheet" type="text/css" href="/css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              <a href="#"><img src="IPALOGOFIT.jpg" id="ipalogo"></a>
+                              <div id="ipaname"></div>
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="/" class="nounderline">HOME</a></li>
+                                    <li><a href="#pharmacist" class="nounderline">ABOUT</a></li>
+                                    <li><a href="/local/locallogin" class="nounderline">LOGIN</a></li>
+                                    <li><a href="#footer" class="nounderline">CONTACT</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+                  <div id="title">
+                        INDIAN <br> PHARMACIST <br> ASSOCIATION <br> (IPA) 
+                  </div>
+                  <div id="subtitle">
+                        Member of Global Health Workforce Alliance - WHO
+                  </div>
+
+                  <div id="buttons">
+                        <a href="/local/locallogin" class="nounderline"><button class="btn btn-primary btn-lg btn-block" type="button">LOGIN</button></a><br><br>
+                        <a href="/local/register" class="nounderline"><button type="button" class="btn btn-danger btn-lg btn-block">REGISTER</button></a>
+                  </div>
+
+                  <a href="#pharmacist-div"><i class="fa fa-chevron-down fa-4x" aria-hidden="true" id="down"></i></a>
+
+
+            </header>
+
+            <div class="content" id="pharmacist-div">
+                  
+                  <p id="pharmacist">
+                            <span class="pharma">PHARMACIST</span> <br>
+                            A pharmacist is a person who practices the profession of pharmacy<br>
+                              I am a specialist in medications<br>
+                              I am a companion of the physician<br>
+                              I am a counselor to the patient<br>
+                              I am a guardian of public health<br>
+                              I have information about virtually all the specific drugs and several facts about them.<br>
+                              I can prepare, compound and provide medicines and pharmaceuticals.<br>
+                              I sincerely attempt to keep myself abreast of current developments in my profession.<br>
+                              I am a counselor on the merits and demerits of different therapeutic agents.<br>
+                              I am the link between physician and patient and the final check on the safety of medicines.<br>
+                              I help the patient understand the proper use of medicaments.<br>
+                              I assist in the patient’s choice of nonprescription drugs or in the decision to consult the physician.<br>
+                              I encourage and promote sound personal health practices.<br>
+                              My professional services are available to all at all times.<br>
+                              I obey the laws governing the practice of pharmacy and support their enforcement.<br>
+                              This is my calling. This is my pride.<br>
+                              We are the Pharmacists of India.  We are the backbone of Indian Health System.  Pharmacy Act gives power only to us to handle medicines.<br>
+                              <span id="act">Section 42 of the Pharmacy Act states that no person other than a Registered Pharmacist shall compound, prepare, mix, or dispense any medicine on the prescription of a medical practitioner and whosoever contravenes it shall be punishable with imprisonment for a term which may extend to six months, or with fine not exceeding one thousand rupees or with both.</span><br>
+                              Dispensing is the final step in therapeutics process and the success curative process depends on quality of dispensing practice.<br>
+                              We in Indian health system serves as:<br>
+                              Care giver continuation with health care providers<br>
+                              Decision maker Role in policy making<br>
+                              Communicator<br>
+                              Manager of resources<br>
+                              Life long learner<br>
+                              Teacher<br>
+                              Leader<br>
+                              Researcher<br>
+    </p>
+            </div>
+      </div>
+      <div id="pm">
+            <img src="PM-MEETING.jpg" id="pic">
+            <div id="pmcaption">Shri Abhay Kumar, President and Shri Bhupendra Kumar,<br> General Secretary of Indian Pharmacist Association (IPA) with <br>Hon'ble Prime Minister of India Shri Narendra Modi ji and <br> Member of Parliament Shri Bishnu Pada Ray.</span>
+      </div>
+      <footer id="footer">
+      <i class="far fa-copyright"></i>
+      INDIAN PHARMACIST ASSOCIATION <br>
+      B-18, LANE 7, SHASHI GARDEN, MAYUR VIHAR, PHASE- 1,<br> DELHI-110091
+      </footer>
+
+      
+
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            var t = "<h1>IPA</h1>";
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      background-color: #000;
+}
+
+#navbrand{
+	vertical-align: bottom;
+}
+
+.b{
+	background: rgb(0,0,0,0.8);
+	padding: 10px;
+}
+
+.logo{
+	border-radius: 10px;
+}
+
+
+.w{
+	color: #fff;
+	padding-left: 10px;
+}
+
+.float-right{
+	float: right;
+}
+
+#content{
+	overflow: auto;
+	padding: 20px;
+	text-align: right;
+}
+
+#menu{
+	position: fixed;
+}
+
+#name{
+	font-size: 30px;
+}
+
+.pills{
+	padding-top: 20px;
+	float: right;
+}
+
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+#v-pills-tabContent > div{
+	padding: 20px 10px;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+}
+.iframe-class {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: auto;
+}
+
+
+.left{
+	float: left;
+
+}
+
+#foot{
+	background-color: #111;
+	height: 100%;
+}

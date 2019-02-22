@@ -1,0 +1,256 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+ 
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(/final.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      background-attachment: fixed;
+      z-index: -1;
+}
+
+footer{
+	text-align: center;	
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+
+#ipalogo{
+	height: 120px;
+	border-radius: 10px;
+}
+
+.c{
+	text-align: center;
+}
+
+#pharmacist{
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	line-height: 2.5em;
+}
+
+#title{
+	padding-top: 30vh;
+	padding-left: 9vw;
+	color: #fff;
+	letter-spacing: 15px;
+	line-height: 6vw;
+	font-size: 4vw;
+	font-family: 'aero', Times, serif;
+	font-weight: bold;
+}
+
+#subtitle{
+	color: #fff;
+	padding-top: 2vh;
+	padding-left: 9vw;
+	color: #fff;
+	letter-spacing: 6px;
+	font-size: 1.5vw;
+}
+
+#buttons{
+	float: right;
+	transform: translate(-10vw,-40vh);
+	text-decoration: none;
+}
+
+#pic{
+	border-radius: 50px;
+	padding: 20px;
+	height: 80%;
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#down{
+	color: #fff;
+	padding-top: 2vh;
+	padding-left: 50vw;
+
+}
+
+
+#pm{
+	background-color: #02073C;
+}
+
+#pmcaption{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+.pharma{
+	text-shadow: 5px 5px 5px #A9A9A9;
+	font-size: 40px;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+ 
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+      z-index: 1;
+}
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+ 
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+ 
+nav.black ul {
+      background: rgba(0, 0, 0, 0.8);
+
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 40px 25px;
+
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+ 
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@font-face{
+	font-family: ringbearer;
+	src: url('/RINGM___.ttf')
+}
+
+@font-face{
+	font-family: aero;
+	src: url('/AeroviasBrasilNF.ttf');
+}	
+ 
+@media(max-width: 786px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      #ipalogo{
+      		height: 60px;
+      		transition: 0.8s;		
+      }
+ 		
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+ 
+      nav.black ul {
+            background: #000;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}
+
+#form{
+	margin: 0 auto;
+	margin-top: 0vh;
+}
+
+.bg{
+	background: url('/lb.jpg') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.w{
+	color: #fff;
+}
+.page-header{
+	padding: 3vh;
+}
+
+.imageresize{
+	height: 15vh;
+	border-radius: 10px;
+	transform: translateX(45vw);
+}
+.form-border{
+	border: 10px;
+	border-color: #fff;
+}

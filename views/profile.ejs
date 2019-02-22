@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Indian Pharmacist Association">
+      <meta name="keywords" content="Indian, Pharmacist,Association,IPA,medicine">
+       <meta name="author" content="Varun Sahil">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Profile</title>
+      <link rel="stylesheet" type="text/css"  href="/css/prof.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
+</head>
+<body>
+        <div class="b" id="navbar">
+            <a href="/"><img src="/IPALOGOFIT.jpg" height="100" class="logo"></a>
+            <span class="w" id="name">INDIAN PHARMACIST ASSOCIATION</span>
+            
+            <img src="<%= user.thumbnail %>" class="float-right">
+            <span class="float-right w">Welcome to your profile,  <%= user.username %> &nbsp;</span>
+                 
+        </div> 
+
+      <div class="row">
+      <div class="col-3 sidenav">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-activities-tab" data-toggle="pill" href="#v-pills-activities" role="tab" aria-controls="v-pills-activities" aria-selected="true">Activities</a>
+          <a class="nav-link" id="v-pills-association-tab" data-toggle="pill" href="#v-pills-association" role="tab" aria-controls="v-pills-association" aria-selected="false">Association</a>
+          <a class="nav-link" id="v-pills-membership-tab" data-toggle="pill" href="#v-pills-membership" role="tab" aria-controls="v-pills-membership" aria-selected="false">Membership</a>
+          <a class="nav-link" id="v-pills-branches-tab" data-toggle="pill" href="#v-pills-branches" role="tab" aria-controls="v-pills-branches" aria-selected="false">Branches</a>
+          <a class="nav-link" id="v-pills-affiliations-tab" data-toggle="pill" href="#v-pills-affiliations" role="tab" aria-controls="v-pills-affiliations" aria-selected="false">Affiliations</a>
+          <a class="nav-link" id="v-pills-office-tab" data-toggle="pill" href="#v-pills-office" role="tab" aria-controls="v-pills-office" aria-selected="false">Office Bearers</a>
+          <a class="nav-link" id="v-pills-links-tab" data-toggle="pill" href="#v-pills-links" role="tab" aria-controls="v-pills-links" aria-selected="false">Links</a>
+          <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact</a>
+
+          <!-- chnage this button -->
+
+          <a class="nav-link"  href="/auth/logout" id="lo">Log Out</a>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-activities" role="tabpanel" aria-labelledby="v-pills-activities-tab">
+            
+            <!-- include the activities.html here -->
+            <div class="container">
+              <iframe src="/menupage/activities.html" class="iframe-class"></iframe>
+            </div>
+
+          </div>
+          <div class="tab-pane fade" id="v-pills-association" role="tabpanel" aria-labelledby="v-pills-association-tab">
+            <div class="container">
+              <iframe src="/menupage/association.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-membership" role="tabpanel" aria-labelledby="v-pills-membership-tab">
+            <div class="container">
+              <iframe src="/menupage/membership.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-branches" role="tabpanel" aria-labelledby="v-pills-branches-tab">
+            
+            <div class="container">
+              <iframe src="/menupage/branches.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-affiliations" role="tabpanel" aria-labelledby="v-pills-affiliations-tab">
+            
+            <div class="container">
+              <iframe src="/menupage/affiliations.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-office" role="tabpanel" aria-labelledby="v-pills-office-tab">
+            
+            <div class="container">
+              <iframe src="/menupage/office.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-links" role="tabpanel" aria-labelledby="v-pills-links-tab">
+            
+            <div class="container">
+              <iframe src="/menupage/links.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
+            
+            <div class="container">
+              <iframe src="/menupage/contact.html" class="iframe-class"></iframe>
+            </div>
+          </div>
+          <div id="foot" class="w">
+            <i class="far fa-copyright"></i>
+            INDIAN PHARMACIST ASSOCIATION <br>
+            B-18, LANE 7, SHASHI GARDEN, MAYUR VIHAR, PHASE- 1, DELHI-110091
+          </div>
+        </div>
+      </div>
+    </div>
+<body>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+</html>
